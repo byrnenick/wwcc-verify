@@ -35,7 +35,7 @@ def test():
 			"lastname" : lastname,
 			"cardnumber" : cardnumber
 		}
-		return response
+		return jsonify(response)
 	
 
 
