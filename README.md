@@ -30,3 +30,4 @@ Steps to install: '
  * Activate your python virtualenv (optional, but recommended)
  * install dependencies using run 'pip install -r requirements.txt'
  * run API local / development server using 'FLASK_APP=hello.py flask run'
+ * run the WWCC Victoria verification API using ./crawling.py
