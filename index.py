@@ -26,9 +26,12 @@ def test():
 	lastname = request.args.get("lastname")
 	cardnumber = request.args.get("cardnumber")
 
-
-	result = testing(cardnumber, lastname)
-	return jsonify(result)
+	try:
+		result = testing(cardnumber, lastname)
+		return jsonify(result)
+	except: 
+		return "Verify function failing"
+	
 
 
 #demo data, 1573624A-01

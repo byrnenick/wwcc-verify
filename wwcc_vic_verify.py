@@ -104,23 +104,57 @@ def testing(cardnumber, lastname):
 	options = Options()
 	options.headless = True
 	driver = webdriver.Firefox(options=options)
-	
+
 	cardnumber = cardnumber
 	lastname = lastname
 
 	print("starting verify function")
 
-
 	driver.get("https://online.justice.vic.gov.au/wwccu/checkstatus.doj")
+
+	driver.close()
 	
-	elem_card_number = driver.find_element_by_name("cardnumber")
-	elem_card_number.send_keys(cardnumber)
+	return "Done"
 
-	elem_surname = driver.find_element_by_name("lastname")
-	elem_surname.send_keys(lastname)
 
-	driver.find_element_by_id("pageAction_submit").click();
 
+
+
+
+def backup(cardnumber, lastname):
+
+	try:
+		options = Options()
+		options.headless = True
+		driver = webdriver.Firefox(options=options)
+	
+		cardnumber = cardnumber
+		lastname = lastname
+
+		print("starting verify function")
+
+	except: 
+		return "Initialisation of verification function failed"
+
+	try:
+		driver.get("https://online.justice.vic.gov.au/wwccu/checkstatus.doj")
+	except:
+		return "Could not fetch URL"
+	
+	try:
+		elem_card_number = driver.find_element_by_name("cardnumber")
+		elem_card_number.send_keys(cardnumber)
+
+		elem_surname = driver.find_element_by_name("lastname")
+		elem_surname.send_keys(lastname)
+	except:
+		return "Cound not complete the form"
+	
+	try:
+		driver.find_element_by_id("pageAction_submit").click();
+	except:
+		return "Cound not submit form"
+	
 	
 	driver.close()
 	
