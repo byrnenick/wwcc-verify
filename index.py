@@ -23,7 +23,7 @@ def victoria():
 @app.route('/test/', methods=['POST', 'GET'])
 def test():
 
-	lastname = "byrne"
+	lastname = request.args.get("lastname")
 	cardnumber = "1573624A-01"
 
 	try:
