@@ -18,7 +18,7 @@ Tasmania and Northern Territory offer publicly accessible web forms, but these f
 ### Part Three
 New South Wales offers a verification service, but the form is protected by reCAPTCHA and is behind an authentication wall. Part Three will introduce the ability for the headless browser to authenticate to the NSW website using login details provided by the user, before using tools similar to part one and two to complete the verification check.
 
-#Local installation of this project
+# Local installation of this project
 
 This project uses Python 3.7.3 Flask to run a light weight API. 
 Installing on your local machine is relatively straight forward. 
