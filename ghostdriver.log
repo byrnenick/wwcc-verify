@@ -1,0 +1,21 @@
+[INFO  - 2019-04-18T09:19:53.075Z] GhostDriver - Main - running on port 61825
+[INFO  - 2019-04-18T09:19:54.022Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-18T09:19:54.022Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.customHeaders:  - {}
+[INFO  - 2019-04-18T09:19:54.022Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-18T09:19:54.022Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 204c4a00-61bb-11e9-aa46-8fb52318bada
+[ERROR - 2019-04-18T09:19:56.134Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.onError - msg: TypeError: undefined is not an object (evaluating '$.fn.carousel.Constructor')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T09:19:56.134Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.onError - stack:
+  (anonymous function) (https://www.workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js:1170)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T09:19:56.896Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.onError - msg: TypeError: undefined is not an object (evaluating '$.fn.carousel.Constructor')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-18T09:19:56.896Z] Session [204c4a00-61bb-11e9-aa46-8fb52318bada] - page.onError - stack:
+  (anonymous function) (https://www.workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js:1170)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2019-04-18T09:24:53.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2019-04-18T09:24:53.394Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '204c4a00-61bb-11e9-aa46-8fb52318bada', because windowless
