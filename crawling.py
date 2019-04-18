@@ -13,3 +13,9 @@ elem_surname.send_keys("Byrne")
 
 
 driver.find_element_by_id("pageAction_submit").click();
+
+try:
+	elem_success = driver.find_element_by_class_name("success")
+	print(elem_success.text)
+except:
+	print("Something went wrong")

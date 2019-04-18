@@ -1,40 +1,69 @@
-1555553972019	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.9bHsJTQUKCpi"
-1555553972781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1555553972781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1555553972782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1555553974663	Marionette	INFO	Listening on port 64227
-1555553974681	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
-1555554017037	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.KQwAGHthNTbp"
-1555554017676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1555554017676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1555554017676	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1555554019123	Marionette	INFO	Listening on port 64500
-1555554019194	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
-1555554103070	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.VHpb4We3fYgJ"
-1555554103645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1555554103645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1555554103646	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1555554105100	Marionette	INFO	Listening on port 64931
-1555554105126	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
-1555554208389	Marionette	INFO	Stopped listening on port 64227
-1555554212638	Marionette	INFO	Stopped listening on port 64931
-1555554214453	Marionette	INFO	Stopped listening on port 64500
-1555554269236	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.wR2StsAbtg0i"
-1555554269803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1555554269803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1555554269803	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1555554271191	Marionette	INFO	Listening on port 49320
-1555554271294	Marionette	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
-1555554307259	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.dGtvan9RX4yq"
-1555554307767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1555554307767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1555554307767	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-1555554309177	Marionette	INFO	Listening on port 49558
-1555554309208	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555554925152	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.jYHO779a7G9C"
+1555554925715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555554925715	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555554925716	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555554927427	Marionette	INFO	Listening on port 50659
+1555554927506	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
 JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
-1555554318181	Marionette	INFO	Stopped listening on port 49558
+1555555079491	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.bdXv4dj5U810"
+1555555079992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555555079992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555555079992	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555555081419	Marionette	INFO	Listening on port 50755
+1555555081447	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555555227252	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.Lms2HuKRQmjY"
+1555555227753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555555227753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555555227753	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555555229174	Marionette	INFO	Listening on port 50869
+1555555229195	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+1555555242327	Marionette	INFO	Stopped listening on port 50869
+1555555251134	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.5xYlp3InIQuw"
+1555555251642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555555251642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555555251642	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555555252973	Marionette	INFO	Listening on port 50947
+1555555253005	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+1555555285861	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.ZAiTaRer8PeV"
+1555555286548	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555555286548	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555555286548	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555555287978	Marionette	INFO	Listening on port 51031
+1555555288014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+1555555307516	Marionette	INFO	Stopped listening on port 51031
+1555555308870	Marionette	INFO	Stopped listening on port 50755
+1555555310276	Marionette	INFO	Stopped listening on port 50947
+1555555311625	Marionette	INFO	Stopped listening on port 50659
+1555555382379	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/9z/rv92_wjx0tv0qp8cnp4ffbfc0000gn/T/rust_mozprofile.NaRyR9DjUnNP"
+1555555382871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555555382871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555555382871	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555555384282	Marionette	INFO	Listening on port 51121
+1555555384338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
+JavaScript error: https://workingwithchildren.vic.gov.au/sites/default/files/js/js_Vd__DmLAHTTFaqWDDDNrEUg8SS7kcYNKWpeSqafddcg.js, line 1170: TypeError: $.fn.carousel is undefined
