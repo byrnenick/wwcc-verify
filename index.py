@@ -19,6 +19,7 @@ def victoria():
 	except:
 		return "Something went wrong"
 
+
 @app.route('/test/', methods=['POST', 'GET'])
 def test():
 	data = request.args.get("data")

@@ -24,6 +24,8 @@ def verify(cardnumber, lastname):
 	cardnumber = cardnumber
 	lastname = lastname
 
+	print("starting verify function")
+
 	try:
 		driver.get("https://online.justice.vic.gov.au/wwccu/checkstatus.doj")
 		try: 
@@ -38,6 +40,7 @@ def verify(cardnumber, lastname):
 			try:
 				elem_success = driver.find_element_by_class_name("success")
 				message = elem_success.text
+				print(message)
 				
 				if "is current" in message:
 					result = "Pass"
