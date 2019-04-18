@@ -24,7 +24,7 @@ def victoria():
 def test():
 
 	lastname = request.args.get("lastname")
-	cardnumber = "1573624A-01"
+	cardnumber = request.args.get("cardnumber")
 
 	try:
 		result = testing(cardnumber, lastname)
