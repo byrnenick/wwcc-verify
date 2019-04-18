@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request
-from wwcc_vic_verify import verify
+from wwcc_vic_verify import verify, testing
 
 app = Flask(__name__)
 
@@ -22,8 +22,13 @@ def victoria():
 
 @app.route('/test/', methods=['POST', 'GET'])
 def test():
-	data = request.args.get("data")
-	return jsonify(data)
+
+	lastname = request.args.get("lastname")
+	cardnumber = request.args.get("cardnumber")
+
+
+	result = testing(cardnumber, lastname)
+	return jsonify(result)
 
 
 #demo data, 1573624A-01

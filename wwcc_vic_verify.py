@@ -82,3 +82,52 @@ def verify(cardnumber, lastname):
 
 
 
+#!/usr/bin/env python
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.common.keys import Keys
+
+
+response ={}
+
+#run this to test script verify("1573624A-01", "byrne")
+
+'''three possible responses:
+1. "Pass" - the details provided have been verified as valid by Vic WWCC
+2. "Fail" - the details provided were true, but the WWCC is not valid <to do>
+3. "Error" - something went wrong
+'''
+
+
+def testing(cardnumber, lastname):
+
+	options = Options()
+	options.headless = True
+	driver = webdriver.Firefox(options=options)
+	
+	cardnumber = cardnumber
+	lastname = lastname
+
+	print("starting verify function")
+
+
+	driver.get("https://online.justice.vic.gov.au/wwccu/checkstatus.doj")
+	
+	elem_card_number = driver.find_element_by_name("cardnumber")
+	elem_card_number.send_keys(cardnumber)
+
+	elem_surname = driver.find_element_by_name("lastname")
+	elem_surname.send_keys(lastname)
+
+	driver.find_element_by_id("pageAction_submit").click();
+
+	
+	driver.close()
+	
+	return "Done"
+
+
+
+
+
+
