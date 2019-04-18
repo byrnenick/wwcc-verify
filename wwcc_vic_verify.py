@@ -4,8 +4,6 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 
 
-response ={}
-
 #run this to test script verify("1573624A-01", "byrne")
 
 '''three possible responses:
@@ -16,6 +14,8 @@ response ={}
 
 
 def verify(cardnumber, lastname):
+
+	response ={}
 
 	options = Options()
 	options.headless = True
@@ -82,24 +82,9 @@ def verify(cardnumber, lastname):
 
 
 
-#!/usr/bin/env python
-from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.keys import Keys
-
-
-response ={}
-
-#run this to test script verify("1573624A-01", "byrne")
-
-'''three possible responses:
-1. "Pass" - the details provided have been verified as valid by Vic WWCC
-2. "Fail" - the details provided were true, but the WWCC is not valid <to do>
-3. "Error" - something went wrong
-'''
-
-
 def testing(cardnumber, lastname):
+
+	response ={}
 
 	options = Options()
 	options.headless = True
@@ -115,53 +100,3 @@ def testing(cardnumber, lastname):
 	driver.close()
 	
 	return "Done"
-
-
-
-
-
-
-def backup(cardnumber, lastname):
-
-	try:
-		options = Options()
-		options.headless = True
-		driver = webdriver.Firefox(options=options)
-	
-		cardnumber = cardnumber
-		lastname = lastname
-
-		print("starting verify function")
-
-	except: 
-		return "Initialisation of verification function failed"
-
-	try:
-		driver.get("https://online.justice.vic.gov.au/wwccu/checkstatus.doj")
-	except:
-		return "Could not fetch URL"
-	
-	try:
-		elem_card_number = driver.find_element_by_name("cardnumber")
-		elem_card_number.send_keys(cardnumber)
-
-		elem_surname = driver.find_element_by_name("lastname")
-		elem_surname.send_keys(lastname)
-	except:
-		return "Cound not complete the form"
-	
-	try:
-		driver.find_element_by_id("pageAction_submit").click();
-	except:
-		return "Cound not submit form"
-	
-	
-	driver.close()
-	
-	return "Done"
-
-
-
-
-
-
