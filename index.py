@@ -30,7 +30,12 @@ def test():
 		result = testing(cardnumber, lastname)
 		return jsonify(result)
 	except: 
-		return "Verify function failing"
+		response = {
+			"message" : "Verify function failing",
+			"lastname" : lastname,
+			"cardnumber" : cardnumber
+		}
+		return response
 	
 
 
